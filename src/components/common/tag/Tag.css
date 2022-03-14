@@ -1,0 +1,42 @@
+.tag{
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  margin: 0.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.tag-color-green{
+  color: #1d8362;
+  background-image: linear-gradient(315deg, #f2fdfa 0%, #77f5bc 74%);
+}
+
+.tag-color-red{
+  color: #990000;
+  background-image: linear-gradient(147deg, #fa4242 0%, #fca7a7 74%);
+}
+
+.tag-color-blue{
+  color: #5068b8;
+  background-image: linear-gradient(315deg, #d3dcf7 0%, #8bdefa 74%);
+}
+
+.tag-color-yellow{
+  color: #da972d;
+  background-image: linear-gradient(315deg, #ffd48e 0%, #f7edad 74%);
+}
+
+.tag-color-purple{
+  color: #a4508b;
+  background-image: linear-gradient(326deg, #f396d7 0%, #eacdf7 74%);
+}
+
+.tag-color-black{
+  color: #000000;
+  background-image: linear-gradient(147deg, #d3d3d3 0%, #979b9e 74%);
+}
+
+.tag-color-brown{
+  color: #772f1a;
+  background-image: linear-gradient(315deg, #ee8261 0%, #f5bf89 74%);
+}

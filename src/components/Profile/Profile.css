@@ -1,0 +1,36 @@
+.profile-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.profile-tags {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.divider-container{
+  max-width: 48rem;
+}
+
+.divider{
+  border-color: #dcdedf;
+  background-color: transparent;
+  border-style: solid;
+}
+
+.profile-content {
+  padding: 0.5rem;
+}
+
+@media all and (max-width: 400px) {
+  .profile-user {
+    flex-flow: column;
+  }
+
+  .profile-content {
+    text-align: center;
+  }
+}

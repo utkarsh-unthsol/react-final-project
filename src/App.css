@@ -1,0 +1,163 @@
+:root {
+  --accent-01: #92dce5;
+  --text-01: #3e5053;
+}
+
+body {
+  color: var(--text-01);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+label,
+textarea {
+  display: block;
+  outline: none;
+}
+
+input,
+textarea {
+  background-color: #fff;
+  color: inherit;
+  padding: 0.25rem 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input:hover,
+textarea:hover, .btn:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 12px 1px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 2px solid var(--accent-01);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ac;
+}
+
+.rounded-1 {
+  border-radius: 0.5rem;
+}
+
+.rounded-2 {
+  border-radius: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.btn-01 {
+  color: #fff;
+  background-color: #39b7ce;
+  background-image: linear-gradient(315deg, #5690e0 0%, #72ccd3 74%);
+}
+
+.btn-01:hover {
+  background-color: #dcedf0;
+  color: #39b7ce;
+  background-image: linear-gradient(315deg, #adcfff 0%, #c2fbff 74%);
+}
+
+.btn-02 {
+  color: #ffeeec;
+  background-color: #bd4f6c;
+  background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+}
+
+.btn-02:hover {
+  background-color: #e7bcb7;
+  color: #bf3a30;
+  background-image: linear-gradient(315deg, #f3d6d4 0%, #e6cddb 74%);
+}
+
+.btn-03 {
+  background-color: #d6e0e9;
+  background-image: linear-gradient(315deg, #d6e0e9 0%, #d0d6dd 74%);
+}
+
+.btn-03:hover {
+  background-color: #cbcfd1;
+  background-image: linear-gradient(315deg, #d7e1ec 0%, #ffffff 74%);
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  width: auto;
+  border-radius: 9999px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.super-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  display: block;
+}
+
+div.page-layout {
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.page-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.grad-01 {
+  background-color: #f2f5fa;
+  background-image: linear-gradient(315deg, #f2f5fa 0%, #fcf8f8 74%);
+}
+
+.icon {
+  max-height: 1rem;
+}

@@ -1,0 +1,45 @@
+.noteform-container {
+  padding: 1rem;
+  /* background-color: #f8d4c9;
+  background-image: linear-gradient(315deg, #f8edea 0%, #f5f3ec 74%); */
+  flex: 1;
+}
+
+.noteform {
+  margin: 2rem auto;
+  max-width: 56rem;
+}
+
+.noteform input,
+.noteform textarea {
+  padding: 0.5rem;
+  font-family: inherit;
+  margin: 0.5rem auto;
+}
+
+.noteform label {
+  margin-top: 1rem;
+}
+
+.noteform input {
+  font-weight: 600;
+}
+
+
+.noteform-btns{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.noteform .noteform-date{
+  display: inline-block;
+  width: auto;
+  padding: 0.5rem;
+}
+
+.noteform-error-message{
+  color: #d24;
+  font-size: 0.8rem;
+  padding: 0.25rem;
+}
